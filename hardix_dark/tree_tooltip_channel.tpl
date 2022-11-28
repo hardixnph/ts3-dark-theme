@@ -1,8 +1,9 @@
 <!--
 TeamSpeak 3 Channel Tooltip Template
 
-Copyright (c) 2009-2020 TeamSpeak Systems GmbH
-Copyright (c) 2020 Hardix - www.indungi.ro
+Copyright (c) 2009-2022 TeamSpeak Systems GmbH
+Autor: dante696 from TeamSpeak-Systems GmbH
+Copyright (c) 2022 Hardix - fastguard x baroynetwork
 
 The replaceable variables are embedded in "%%" like %%CHANNEL_NAME%%. At this time you can also use
 %%?CHANNEL_NAME%% (note the question mark), which is a tiny "if"- query. Use it, to remove the whole

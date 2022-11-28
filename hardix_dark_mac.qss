@@ -2,7 +2,8 @@
  * Dark stylesheet for TeamSpeak 3 client
  * Special file for macOS, loaded in addition to global dark.qss stylesheet
  *
- * Copyright (c) 2021 Hardix - www.permissions4ts.com
+ * Autor: dante696 from TeamSpeak-Systems GmbH
+ * Copyright (c) 2022 Hardix - fastguard x baroynetwork
  */
 
 /* macOS specific fixes */

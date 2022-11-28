@@ -1,7 +1,8 @@
 /*
 * Hardix's Dark Theme stylesheet for TeamSpeak 3 client
 *
-* Copyright (c) 2021 Hardix - www.permissions4ts.com
+* Autor: dante696 from TeamSpeak-Systems GmbH
+* Copyright (c) 2022 Hardix - fastguard x baroynetwork
 *
 * Global overrides for QPalette::ColorRole values:
 * QPalette::Link = #148585;

@@ -1,6 +1,10 @@
 <!--
 TeamSpeak 3 Client Infoframe Template
 
+Copyright (c) 2009-2022 TeamSpeak Systems GmbH
+Autor: dante696 from TeamSpeak-Systems GmbH
+Copyright (c) 2022 Hardix - fastguard x baroynetwork
+
 The replaceable variables are embedded in "%%" like %%CLIENT_NAME%%. At this time you can 
 also use %%?CLIENT_NAME%% (note the questionmark), which is a tiny "if"- query. Use it, to 
 remove the whole line, if a variable is empty or just "0".
