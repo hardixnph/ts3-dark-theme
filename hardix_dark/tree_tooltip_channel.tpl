@@ -59,7 +59,7 @@ TEMP_CHANNEL_TIME_TO_DELETE
     }
 
     .Highlight {
-        color: #148585;
+        color: #C93434;
     }
 
     .Important {

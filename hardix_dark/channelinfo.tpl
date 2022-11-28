@@ -88,7 +88,7 @@ FILE_BROWSER_ICON
 <table id="info">
     <td class="label">Name: </td>
     <td dir="LTR">
-      <a href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink" style="text-decoration: none; font-weight: bold; color: #148585;">%%CHANNEL_ICON_SCALED%% %%CHANNEL_NAME%%</a>&nbsp;
+      <a href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink" style="text-decoration: none; font-weight: bold; color: #C93434;">%%CHANNEL_ICON_SCALED%% %%CHANNEL_NAME%%</a>&nbsp;
     </td>
   <tr><td class="label">Full Name:</td><td>%%CHANNEL_NAME_PLAIN%%</td></tr>
   <tr><td class="label">Topic:</td><td>%%?CHANNEL_TOPIC%%</td></tr>

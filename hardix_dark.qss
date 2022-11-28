@@ -5,7 +5,7 @@
 * Copyright (c) 2022 Hardix - fastguard x baroynetwork
 *
 * Global overrides for QPalette::ColorRole values:
-* QPalette::Link = #148585;
+* QPalette::Link = #D61E1E;
 *
 * Global overrides for specific highlight colors:
 * CustomColor::ClientFriend    = #2FD502;
@@ -21,7 +21,7 @@ TextBrowser,
 QAbstractItemView,
 QTextEdit,
 QSplitter {
-    background: #141017;
+    background: #0A0B0E;
     color: #dcddde;
     outline: none;
 }
@@ -47,7 +47,7 @@ QGroupBox::title {
 /* Options dialog title and description */
 QWidget#HeadlineLabel,
 ProfileListWidget {
-    background-color: #1D1721;
+    background-color: #12151A;
     border: 1px solid #202225;
     border-radius: 3px;
 }
@@ -83,7 +83,7 @@ QLabel#bookmarksBanner,
 QLabel#identitiesBanner,
 QLabel#accountLoginBanner,
 QLabel#accountCreateBanner {
-    background-color: #1D1721;
+    background-color: #12151A;
     border: 1px solid #202225;
     border-radius: 3px;
     color: #D41010;
@@ -134,7 +134,7 @@ QSplitter::handle:vertical {
 /* Multi line text inputs */
 QTextEdit {
     border: 1px solid #202225;
-    background: #1C171F;
+    background: #111417;
     padding: 6px;
     border-radius: 3px;
 }
@@ -143,14 +143,14 @@ QTextEdit {
 QLineEdit {
     border:1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     padding: 6px;
 }
 
 /* Chat input got it's own class */
 ChatLineEdit {
     border: none;
-    background: #3B3043;
+    background: #21262E;
     border-radius: 3px;
     padding: 1px;
 }
@@ -159,7 +159,7 @@ ChatLineEdit {
 QExpandingLineEdit {
     border:1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     padding: 0px;
 }
 
@@ -211,20 +211,20 @@ QPushButton:checked:hover {
 /* Options -> Addons */
 #Addons_Setup > QPushButton,
 #Addons_Setup QStackedWidget QWidget QPushButton {
-    background: #1C171F;
-    border-top: 3px solid #1C171F;
+    background: #111417;
+    border-top: 3px solid #111417;
     color: #dddddd;
     border-radius: 0px;
 }
 #Addons_Setup > QPushButton:hover,
 #Addons_Setup QStackedWidget QWidget QPushButton:hover {
-    background: #141017;
+    background: #0A0B0E;
     color: #ffffff;
 }
 #Addons_Setup > QPushButton:checked,
 #Addons_Setup QStackedWidget QWidget QPushButton:checked {
     border-top: 3px solid #D41010;
-    background: #141017;
+    background: #0A0B0E;
     color: #ffffff;
 }
 
@@ -234,14 +234,14 @@ QPushButton:checked:hover {
 }
 
 #Addons_Setup QStackedWidget QWidget QListWidget QPushButton {
-    background: #1C171F;
+    background: #111417;
     border: none;
     color: #dddddd;
     border-radius: 0px;
     height: 1.5em;
 }
 #Addons_Setup QStackedWidget QWidget QListWidget QPushButton:hover {
-    background: #141017;
+    background: #0A0B0E;
     border: none;
     color: #ffffff;
 }
@@ -256,7 +256,7 @@ QPushButton:checked:hover {
 
 /* MenuBar */
 QMenuBar {
-    background: #141017;
+    background: #0A0B0E;
     spacing: 2px;
     color: #dddddd;
 }
@@ -273,7 +273,7 @@ QMenuBar::item:pressed {
     color: #ffffff;
 }
 QMenu {
-    background: #141017;
+    background: #0A0B0E;
     color: #dddddd;
     border: 1px solid #222427;
 }
@@ -303,10 +303,10 @@ QMenu::separator {
 QComboBox {
     border:1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     color: #CCCCCC;
     padding: 6px;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
     font-size: 8pt;
 }
 QComboBox::drop-down {
@@ -333,10 +333,10 @@ QComboBox::drop-down:disabled {
 }
 QComboBox:!editable:on,
 QComboBox::drop-down:editable:on {
-    background: #1C171F;
+    background: #111417;
 }
 QComboBox:on {
-    background: #141017;
+    background: #0A0B0E;
 }
 QComboBox QAbstractItemView {
     background: #231C28;
@@ -345,7 +345,7 @@ QComboBox QAbstractItemView {
     border-top-left-radius: 0;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
 }
 QComboBox#utcLocalComboBox {
     padding-left: 14px;
@@ -354,9 +354,9 @@ QComboBox#utcLocalComboBox {
 
 /* Listview (e.g. "Permissions", "Server Groups", etc.) */
 QListView {
-    background: #141017;
+    background: #0A0B0E;
     color:#dcddde;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
     selection-color: #ffffff;
     show-decoration-selected: 1;
     border: 1px solid #222427;
@@ -383,7 +383,7 @@ QListView#groupsListView::item:!selected {
   color: rgb(216,216,216);
 }
 QListWidget#identitiesListWidget {
-    background: #141017;
+    background: #0A0B0E;
     color:#dddddd;
 }
 QListView#fileListView::item:hover {
@@ -396,7 +396,7 @@ QListView#fileListView::item:selected {
 /* Toolbar (main toolbar with buttons and volume slider) */
 QToolBar {
     border: transparent;
-    background: #1C171F;
+    background: #111417;
     spacing: 5px;
 }
 
@@ -404,7 +404,7 @@ QToolBar {
 QToolButton {
     border: none;
     border-radius: 3px;
-    background-color: #28202D;
+    background-color: #171C21;
     font-weight: bold;
     color: #dddddd;
     padding: 3px;
@@ -464,14 +464,14 @@ QTabBar {
     border: none;
 }
 QTabBar::tab {
-    background: #28202D;
+    background: #20262D;
     border: none;
     color: #dddddd;
     min-width: 8ex;
     padding: 6px;
 }
 QTabBar::tab:selected, QTabBar::tab:hover {
-    background: #141017;
+    background: #0A0B0E;
     color: #ffffff;
 }
 
@@ -484,11 +484,11 @@ QTabBar::tab:selected:bottom {
     margin-bottom: 0;
 }
 QTabBar::tab:!selected:top {
-    border-top: 3px solid #1C171F;
+    border-top: 3px solid #111417;
     margin-top: 0;
 }
 QTabBar::tab:!selected:bottom {
-    border-bottom: 5px solid #1C171F;
+    border-bottom: 5px solid #111417;
     margin-bottom: 0;
 }
 
@@ -502,12 +502,12 @@ QSpinBox#reloadChannelChatsSpinBox,
 QSpinBox#reloadClientChatsSpinBox,
 QSpinBox#uploadSpeedSpinBox,
 QSpinBox#downloadSpeedSpinBox {
-    background: #1C171F;
+    background: #111417;
     border:1px solid #222427;
     border-radius: 3px;
     padding: 6px;
     color: #CCCCCC;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
 }
 QSpinBox::disabled,
 QDoubleSpinBox#delayPTTSpinBox::disabled,
@@ -517,7 +517,7 @@ QSpinBox#reloadChannelChatsSpinBox::disabled,
 QSpinBox#reloadClientChatsSpinBox::disabled,
 QSpinBox#uploadSpeedSpinBox::disabled,
 QSpinBox#downloadSpeedSpinBox::disabled {
-    background:  #1C171F;
+    background:  #111417;
     border:1px solid #222427;
     border-top-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -569,11 +569,11 @@ QDoubleSpinBox#delayPTTSpinBox::down-button {
 }
 QSpinBox::down-button:hover,
 QDoubleSpinBox#delayPTTSpinBox::down-button:hover {
-    background: #1C171F;
+    background: #111417;
 }
 QSpinBox::down-button:pressed,
 QDoubleSpinBox#delayPTTSpinBox::down-button:pressed {
-    background: #1C171F;
+    background: #111417;
 }
 QSpinBox::down-arrow,
 QDoubleSpinBox::down-arrow {
@@ -610,7 +610,7 @@ QTreeView#ServerTreeView {
     border: none;
 }
 TreeView {
-    background: #141017;
+    background: #0A0B0E;
     color: #dddddd;
 }
 QTreeView::item {
@@ -703,7 +703,7 @@ QTreeWidget#clientsTreeWidget {
 QScrollBar {
     border: 1px solid transparent;
     border-radius: 5px;
-    background: #141017;
+    background: #0A0B0E;
     margin: 1px;
 }
 QScrollBar:vertical {
@@ -763,7 +763,7 @@ QScrollBar::sub-line:horizontal {
 
 /* HeaderView */
 QHeaderView::section {
-    background: #141017;
+    background: #0A0B0E;
     color: #dddddd;
     height: 25px;
     padding-left: 5px;
@@ -778,7 +778,7 @@ QHeaderView::section:last {
 /* TableView (e.g. hotkeys, notifications) */
 QTableView {
     alternate-background-color: #2F3237;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
     selection-color: #ffffff;
     qproperty-alternatingRowColors: 1;
     gridline-color: #49201C;
@@ -908,12 +908,12 @@ QWidget#sound3Dwidget,
 UserVolumeWidget,
 QWidget#sound3DTestWidget,
 QWidget#CustomizeToolbar {
-    background: #141017;
+    background: #0A0B0E;
 }
 
 FileBrowser,
 QWidget#ServerQueryView {
-    background: #141017;
+    background: #0A0B0E;
 }
 
 QTextEdit#pluginDescTextEdit,
@@ -921,7 +921,7 @@ QTextEdit#descriptionTextEdit,
 QTextEdit#vsServerNicknamesTextEdit,
 QTextEdit#vserverWelcomeTextEdit {
     border:1px solid #222427;
-    background: #1C171F;
+    background: #111417;
     border-radius: 3px;
     padding: 6px;
 }
@@ -942,7 +942,7 @@ QComboBox:disabled,
 QSpinBox:disabled {
     border:1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     color: #43454B;
 }
 QCheckBox:disabled,
@@ -951,7 +951,7 @@ QTextEdit:disabled {
     color: #43454B;
 }
 QTextEdit:disabled {
-    background: #1C171F;
+    background: #111417;
 }
 
 /* Use iOS style "Switches" instead of checkboxes and radio buttons */
@@ -988,10 +988,10 @@ QCheckBox::indicator:disabled:unchecked {
 QRadioButton {
     border: 1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     color: #CCCCCC;
     padding: 3px 4px;
-    selection-background-color: #141017;
+    selection-background-color: #0A0B0E;
     font-size: 8pt;
 }
 QRadioButton::indicator {
@@ -1035,7 +1035,7 @@ QSizeGrip {
 InfoFrame {
     border: 0;
     border-radius: 0;
-    background: url('') #141017;
+    background: url('') #0A0B0E;
     background-repeat: no-repeat;
     background-position: 520px 200px;
     padding: 0;
@@ -1052,7 +1052,7 @@ QTextEdit#ChatTab {
 
 /* Wizard */
 QWizard QWidget {
-    background: #141017;
+    background: #0A0B0E;
 }
 QWizard QLabel {
     background: transparent;
@@ -1061,14 +1061,14 @@ QWizard QLabel {
 /* Capture Hotkey dialog */
 QLabel#RecorderLabel {
     border: 1px solid #6f80aa;
-    background: #141017;
+    background: #0A0B0E;
 }
 
 /* Tool Tips */
 QToolTip {
     border:1px solid #222427;
     border-radius: 3px;
-    background: #1C171F;
+    background: #111417;
     color:#dddddd;
     padding: 6px;
 }
@@ -1108,14 +1108,14 @@ QDockWidget {
 
 QDockWidget::title {
     border: 1px solid #202225;
-    background: #1D1721;
+    background: #12151A;
     text-align: center;
 }
 QDockWidget::close-button,
 QDockWidget::float-button {
     border: none;
     border-radius: 3px;
-    background-color: #1D1721;
+    background-color: #12151A;
     icon-size: 15px;
     padding: 2px;
 
@@ -1127,7 +1127,7 @@ QDockWidget::float-button:hover {
 
 /* Offline Messages */
 QWidget#OfflineMessagesDialog {
-    background: #1C171F;
+    background: #111417;
 }
 QWidget#OfflineMessagesDialog #messagesTreeView,
 QWidget#OfflineMessagesDialog TextBrowser {
@@ -1137,16 +1137,16 @@ QWidget#OfflineMessagesDialog TextBrowser {
 /* "Recipients" field in "New Offline Message" dialog */
 OfflineMessagesNew QScrollArea {
     border: 1px solid #222427;
-    background: #1C171F;
+    background: #111417;
     border-radius: 3px;
     margin: 0;
 }
 OfflineMessagesNew QScrollArea QWidget#scrollAreaWidgetContents {
-    background: #1C171F;
+    background: #111417;
 }
 OfflineMessagesNew QScrollArea QWidget EscLineEdit {
     border: 1px solid #202225;
-    background: #1C171F;
+    background: #111417;
     padding: 0;
     border-radius: 3px;
     height: 30px !important;
@@ -1164,7 +1164,7 @@ OfflineMessagesNew QListView {
 
 /* QToolBox tabs (e.g. "Contacts", "Server List") */
 QToolBox:tab {
-    background-color: #141017;
+    background-color: #0A0B0E;
     border: none;
     border-bottom: 1px solid #49201C;
 }
@@ -1179,7 +1179,7 @@ ClientLogView QAbstractScrollArea {
 AboutDialog #aboutTab,
 AboutDialog #copyrightTab,
 AboutDialog #licenseTab {
-    background: #141017;
+    background: #0A0B0E;
     padding: 0;
     margin: 0;
 }
@@ -1191,23 +1191,23 @@ AboutDialog QTextEdit {
 
 /* Client Connection Info */
 QWidget#ConnectionInfoDialog QStackedWidget QWidget {
-    background: #141017;
+    background: #0A0B0E;
 }
 QWidget#ConnectionInfoDialog QTabBar::tab:!selected:top {
-    border-top: 3px solid #1C171F;
+    border-top: 3px solid #111417;
     margin-top: 0;
 }
 QWidget#ConnectionInfoDialog QTabBar::tab:!selected:bottom {
-    border-bottom: 5px solid #1C171F;
+    border-bottom: 5px solid #111417;
     margin-bottom: 0;
 }
 QWidget#ConnectionInfoDialog {
-    background: #1C171F;
+    background: #111417;
 }
 
 /* Virtual Server Edit Dialog */
 #VirtualServerEditDialog {
-    background: #1C171F;
+    background: #111417;
 }
 #VirtualServerEditDialog QScrollArea {
     border: 1px solid #222427;
@@ -1218,18 +1218,18 @@ QWidget#ConnectionInfoDialog {
 }
 
 #VirtualServerEditDialog QStackedWidget > QWidget {
-    background: #141017;
-    border-top: 2px solid #141017;
+    background: #0A0B0E;
+    border-top: 2px solid #0A0B0E;
 }
 
 /* Virtual Server Edit Dialog */
 #CreateChannelDialog {
-    background: #1C171F;
+    background: #111417;
 }
 
 #CreateChannelDialog QStackedWidget > QWidget {
-    background: #141017;
-    border-top: 2px solid #141017;
+    background: #0A0B0E;
+    border-top: 2px solid #0A0B0E;
 }
 #CreateChannelDialog #permissionsWidget {
     background: none;

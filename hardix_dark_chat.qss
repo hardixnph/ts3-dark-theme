@@ -98,19 +98,19 @@ p {
 /* @group Object Link Elements */
 
 .TextMessage_UserLink {
-  color: #148585;
+  color: #D61E1E;
   font-weight: bold;
   text-decoration: none;
 }
 
 .TextMessage_ServerLink {
-  color: #148585;
+  color: #D61E1E;
   font-weight: bold;
   text-decoration: none;
  }
  
 .TextMessage_ChannelLink {
-  color: #14A7A7;
+  color: #C93434;
   font-weight: bold;
   text-decoration: none;
 }
@@ -196,12 +196,12 @@ p {
 /* @group Hostname resolve and unread Offline messages */
 
 .TextMessage_HostName {
-  color: #148585;
+  color: #D61E1E;
   font-weight: bold;
 }
 
 .TextMessage_OfflineLink {
-  color: #148585;
+  color: #D61E1E;
   font-weight: bold;
 }
 
