@@ -54,7 +54,7 @@ ProfileListWidget {
 QLabel#OptionsHeadlineTitleLabel {
     text-transform: uppercase;
     background: none;
-    color: #385D59;
+    color: #993636;
     font-weight: bold;
 }
 QLabel#OptionsHeadlineDescriptionLabel {
@@ -86,7 +86,7 @@ QLabel#accountCreateBanner {
     background-color: #1D1721;
     border: 1px solid #202225;
     border-radius: 3px;
-    color: #0B4848;
+    color: #D41010;
     font-weight: bold;
     padding-left: 6px;
     qproperty-minimumSize: 0px 32px;
@@ -179,7 +179,7 @@ QToolBox {
  * such as Tools -> Options -> Addons.
  */
 QPushButton {
-    background-color: #0B4848;
+    background-color: #D41010;
     border: none;
     border-radius: 3px;
     padding-left: 14px; padding-right: 14px;
@@ -188,24 +188,24 @@ QPushButton {
     color: #ffffff;
 }
 QPushButton:hover {
-    background: #348D8D;
+    background: #B4463B;
     color: #ffffff;
 }
 QPushButton:pressed {
-    background: #348D8D;
+    background: #B4463B;
     color: #ffffff;
 }
 QPushButton:disabled {
     border: none;
     border-radius: 3px;
-    background: #293837;
+    background: #49201C;
     color: #777777;
 }
 QPushButton:checked {
-    background-color: #348D8D;
+    background-color: #B4463B;
 }
 QPushButton:checked:hover {
-    background-color: #348D8D;
+    background-color: #B4463B;
 }
 
 /* Options -> Addons */
@@ -223,7 +223,7 @@ QPushButton:checked:hover {
 }
 #Addons_Setup > QPushButton:checked,
 #Addons_Setup QStackedWidget QWidget QPushButton:checked {
-    border-top: 3px solid #0B4848;
+    border-top: 3px solid #D41010;
     background: #141017;
     color: #ffffff;
 }
@@ -247,7 +247,7 @@ QPushButton:checked:hover {
 }
 #Addons_Setup QStackedWidget QWidget QListWidget QPushButton:checked {
     border-top: none;
-    background: #293837;
+    background: #49201C;
     border: none;
     color: #ffffff;
     image-position: center left;
@@ -289,7 +289,7 @@ QMenu::item:selected {
     color: #ffffff;
 }
 QMenu::item:on {
-    background: #293837;
+    background: #49201C;
     color: #ffffff;
 }
 QMenu::separator {
@@ -410,15 +410,15 @@ QToolButton {
     padding: 3px;
 }
 QToolButton:pressed {
-    background: #293837;
+    background: #49201C;
     color: #ffffff;
 }
 QToolButton:hover {
-    background: #293837;
+    background: #49201C;
     color: #ffffff;
 }
 QToolButton:checked {
-    background: #293837;
+    background: #49201C;
     color: #dddddd;
 }
 
@@ -435,7 +435,7 @@ QToolButton[popupMode="1"]:hover {
 }
 QToolButton[popupMode="1"]:checked {
     border: none;
-    background: #293837;
+    background: #49201C;
     color: #dddddd;
     border-radius: 3px;
     padding-right: 15px;
@@ -476,11 +476,11 @@ QTabBar::tab:selected, QTabBar::tab:hover {
 }
 
 QTabBar::tab:selected:top {
-    border-top: 3px solid #0B4848;
+    border-top: 3px solid #D41010;
     margin-top: 0;
 }
 QTabBar::tab:selected:bottom {
-    border-bottom: 3px solid #0B4848;
+    border-bottom: 3px solid #D41010;
     margin-bottom: 0;
 }
 QTabBar::tab:!selected:top {
@@ -714,7 +714,7 @@ QScrollBar:horizontal {
 }
 QScrollBar::handle {
     border: 1px solid transparent;
-    background: #293837;
+    background: #49201C;
     border-radius: 4px;
 }
 QScrollBar::handle:vertical {
@@ -768,8 +768,8 @@ QHeaderView::section {
     height: 25px;
     padding-left: 5px;
     border: none;
-    border-bottom: 1px solid #293837;
-    border-right: 1px solid #293837;
+    border-bottom: 1px solid #49201C;
+    border-right: 1px solid #49201C;
 }
 QHeaderView::section:last {
     border-right: none;
@@ -781,7 +781,7 @@ QTableView {
     selection-background-color: #141017;
     selection-color: #ffffff;
     qproperty-alternatingRowColors: 1;
-    gridline-color: #293837;
+    gridline-color: #49201C;
     border-radius: 3px;
 }
 QTableView::item {
@@ -809,7 +809,7 @@ QSlider {
     padding-bottom: 6px;
 }
 QSlider::groove:horizontal {
-    background: #0B4848;
+    background: #D41010;
     border: 1px solid transparent;
     border-radius: 3px;
     padding-right: 5px;
@@ -817,7 +817,7 @@ QSlider::groove:horizontal {
     height: 7px;
 }
 QSlider::sub-page:horizontal { /*left side*/
-    background: #0B4848;
+    background: #D41010;
     border-bottom: none;
     border-left: none;
     border-top: none;
@@ -842,7 +842,7 @@ QSlider::handle:horizontal {
 }
 
 QSlider::groove:vertical {
-    background: #0B4848;
+    background: #D41010;
     border: 1px solid transparent;
     border-radius: 3px;
     padding-top: 5px;
@@ -850,7 +850,7 @@ QSlider::groove:vertical {
     width: 7px;
 }
 QSlider::sub-page:vertical { /*top side*/
-    background: #0B4848;
+    background: #D41010;
     border-bottom: none;
     border-left: none;
     border-top: none;
@@ -958,7 +958,7 @@ QTextEdit:disabled {
 QCheckBox::indicator:checked {
     height: 20px;
     width: 35px;
-    background: #0B4848;
+    background: #D41010;
     border: none;
     border-radius: 10px;
     image: url(styles:hardix_dark/gfx/checkbox_enabled.svg);
@@ -972,17 +972,17 @@ QCheckBox::indicator:unchecked {
     image: url(styles:hardix_dark/gfx/checkbox_disabled.svg);
 }
 QCheckBox::indicator:checked:hover {
-    background: #0B4848;
+    background: #D41010;
 }
 QCheckBox::indicator:unchecked:hover {
     background: #72767D;
 }
 QCheckBox::indicator:disabled:checked {
-    background: #293837;
+    background: #49201C;
     image: url(styles:hardix_dark/gfx/checkbox_inactive_enabled.svg);
 }
 QCheckBox::indicator:disabled:unchecked {
-    background: #293837;
+    background: #49201C;
     image: url(styles:hardix_dark/gfx/checkbox_inactive_disabled.svg);
 }
 QRadioButton {
@@ -1004,11 +1004,11 @@ QRadioButton::indicator {
     padding-right: 5px;
 }
 QRadioButton:checked {
-    background: #0B4848;
+    background: #D41010;
     color: #FFFFFF;
 }
 QRadioButton:disabled:checked {
-    background: #293837;
+    background: #49201C;
     color: #666666;
 }
 QRadioButton::indicator:checked {
@@ -1100,7 +1100,7 @@ MsgDialog QTextBrowser {
 /* Dock widgets */
 QDockWidget {
     font-weight: bold;
-    color: #0B4848;
+    color: #D41010;
     text-transform: uppercase;
     titlebar-close-icon: url('styles:hardix_dark/gfx/close_button.svg');
     titlebar-normal-icon: url('styles:hardix_dark/gfx/restore_button.svg');
@@ -1122,7 +1122,7 @@ QDockWidget::float-button {
 }
 QDockWidget::close-button:hover,
 QDockWidget::float-button:hover {
-    background: #293837;
+    background: #49201C;
 }
 
 /* Offline Messages */
@@ -1166,7 +1166,7 @@ OfflineMessagesNew QListView {
 QToolBox:tab {
     background-color: #141017;
     border: none;
-    border-bottom: 1px solid #293837;
+    border-bottom: 1px solid #49201C;
 }
 
 /* Client / Server Log */
